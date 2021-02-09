@@ -7,7 +7,7 @@ If the shift goes beyond the end of the alphabet, then you just need to rotate b
 
 Original alphabet: abcdefghijklmnopqrstuvwxyz
 Alphabet rotated by three: defghijklmnopqrstuvwxyzabc
-The following code implements rotate_chr(), a function that takes a character and rotates it by three. rotate_chr() will return the rotated character. Here’s the code:
+The code snippet implements rotate_character(), a function that takes a character and rotates it by three. rotate_chr() will return the rotated character. Here’s the code:
 
 Basically we are using ord() and chr() to achieve this; 
 ord ---> Returns the integer ordinal of a one-character string.
